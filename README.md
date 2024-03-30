@@ -1,7 +1,7 @@
 ## Booking Program
 BookingProgram is a simple booking system program where students can search, view, enrol into and withdraw from courses at a University. Students can enrol into a course by searching for a course by keyword (e.g. algorithms), the program will list all courses with the matching input (case insensitive), and the student can choose to enrol into one from the list. Once a course is selected, the course will be added to the students course list and they can continue to enrol into additional courses, display their currently enrolled courses or withdraw from a course. 
 
-The program contains 5 classes:
+**The program contains 5 classes**:
 
 *Main.java*: This class serves as the entry point into the program, containing the main method.
 
@@ -12,7 +12,7 @@ The program contains 5 classes:
 *MenuException.java*:This class extends the java Exception class and is used for custom exceptions involving invalid user input i.e. Out of range, or empty input.
 
 
-There are also 2 test classes:
+**There are also 2 test classes**:
 
 *BookingTest.java,    StudentTest.java*
 

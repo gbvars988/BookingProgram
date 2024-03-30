@@ -5,14 +5,16 @@ BookingProgram is a simple booking system program where students can search, vie
 
 *Main.java*: This class serves as the entry point into the program, containing the main method.
 
-*Course.java*:This class stores attributes of each course. Student.java: This class stores information about the student and an ArrayList of Course objects to storecurrently enrolled courses.
+*Course.java*:This class stores attributes of each course. 
+
+*Student.java*: This class stores information about the student and an ArrayList of Course objects to storecurrently enrolled courses.
 
 *Booking.java*: This class provides the functionality and logic of the booking system via a main menu. The Booking class has a Student object and the methods call methods from the student class based on user input. The class also has an ArrayList of Course objects of which all available courses are read in from a provided csv file.
 
 *MenuException.java*:This class extends the java Exception class and is used for custom exceptions involving invalid user input i.e. Out of range, or empty input.
 
 
-**There are also 2 test classes**:
+**There are also 2 test classes utilising JUnit**:
 
 *BookingTest.java,    StudentTest.java*
 
